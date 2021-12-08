@@ -1,0 +1,518 @@
+/*////  Small devices (landscape phones, 576px and min) ////*/
+@media screen and (max-width: 576px) { 
+
+    body{
+        font-size: 10px;
+    }
+
+    .showcontsidebar{
+        width: 100%;
+    }
+
+    .supimglinc-first, .supimglinc-middle, .supimglinc-third{
+        height: 150px;
+        width: 300px;
+        margin: 0.5rem;
+
+    }
+
+    .unbanner1{
+        background-image: url( "../img/pag_2_phone-device_2option_1.jpg");
+        background-position:center;
+        background-repeat: no-repeat;
+    }
+
+    .unsection2{
+        padding-bottom: 3rem;
+      
+    }
+
+    .bloque1{
+        height: 100px;
+        margin-bottom: 8%;
+    }
+
+    .imgprositio{
+        margin-top: 2rem;
+   }
+
+   .suppropsitio{
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+  }
+
+  .clienteideal{
+    height: 600px;
+    border-radius: 8px;
+    padding-right: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    }
+
+
+  .supimgideal{
+    width: 90%;
+    height: 35%;
+}
+
+.imgideal{
+    margin-left: none;
+    margin-top: 2rem;
+    object-position:center;
+    width: 100%;
+
+}
+
+.txtideal1 {
+    width: 80%;
+    height: 30%;
+    margin: none;
+    }
+
+   .txtideal2{
+        width: 80%;
+        height: 30%;
+        margin-top: -2rem;
+        }
+
+ 
+    .tiposdeclientes{
+        margin-top: 1rem;
+      margin-bottom: 2rem;
+     
+     }
+
+    .txtcliente{
+        width: 80%;
+        text-align: center;
+        }
+
+    .supimgcliente{
+            width: 80%;
+        }
+
+    .supesquema{
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+        }
+
+    .esquema {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        
+       }
+
+    .supdetalles{
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+    
+    .detalles{
+        height: 100px;
+    }
+
+    
+    .suptarjetas{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+       }
+
+    .colores > div{
+        width: 2.5rem;
+        height: 2.5rem;
+        -webkit-box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+        -moz-box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+        box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+    
+    }
+
+    .imgobj{
+        border-radius: 10px;
+        border: solid 3px rgba(255, 255, 255, 0.9);
+    
+    }
+
+    .vidimg{
+        width: 100%;
+    }
+    .logo{
+        width: 3rem;
+    }
+
+    .objetivowor{
+        height: 380px;
+        padding-top: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .txt-objetivo{
+        width: 100%;
+        align-self: center;
+        text-align: center;
+    }
+
+    
+    .kard, .kardmiddle{
+        height: 10rem;
+    }
+    .kardmiddle{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .supdresponsive{
+        margin-bottom: 3rem;
+    }
+
+    .dresponsive{
+        height: 500px;
+        width: 80%;
+    }
+
+    .drespimg{
+        width: 200px;
+    }
+
+    .txtdresponsive{
+        width: 90%;
+        margin-left: 1rem;
+        text-align: center;
+    }
+
+    footer{
+        height: 130px;
+       
+    }
+    
+    
+    .redes{
+        height: 45px;
+        width: 45px;
+        border-radius: 50px;
+        border: solid 2px white;
+        
+    }
+      
+
+    }
+
+
+    @media screen and (min-width: 576px) { 
+
+    body{
+        font-size: 12px;
+    }
+
+    .showcontsidebar{
+        width: 100%;
+    }
+
+    .supimglinc-first, .supimglinc-middle, .supimglinc-third{
+        height: 200px;
+        width: 400px;
+        margin: 0.5rem;
+
+    }
+
+    .bloque1{
+        height: 100px;
+        margin-bottom: 8%;
+    }
+    .esquema {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        margin-bottom: 4rem;
+        
+       } 
+
+
+     .supdetalles{
+            margin-bottom: 3rem;
+            margin-top: 1rem;
+        }
+
+    .detalles{
+        height: 100px;
+    }
+
+    .colores > div{
+        width: 2.5rem;
+        height: 2.5rem;
+        -webkit-box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+        -moz-box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+        box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+    
+    }
+
+    .logo{
+        width: 3rem;
+    }
+
+    .objetivowor{
+        height: 350px;
+    }
+
+    .vidimg{
+        width: 50%;
+    }
+
+    .kard, .kardmiddle{
+        height: 10rem;
+    }
+
+    .kardmiddle{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .dresponsive{
+        height: 400px;
+        width: 80%;
+    }
+
+    .txtdresponsive{
+        width: 50%;
+        margin-left: 1rem;
+    }
+
+         }
+
+/*//// Medium devices (tablets, 768px and up)////*/
+@media (min-width: 576px) and (max-width: 768px) { 
+
+    .clienteideal{
+        height: 600px;
+        border-radius: 8px;
+        padding-right: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        }
+    
+    
+      .supimgideal{
+        width: 90%;
+        height: 35%;
+    }
+    
+    .imgideal{
+        margin-left: none;
+        margin-top: 2rem;
+        object-position:center;
+        width: 100%;
+    
+    }
+    
+    .txtideal1 {
+        width: 80%;
+        height: 30%;
+        margin: none;
+        }
+    
+       .txtideal2{
+            width: 80%;
+            height: 30%;
+            margin-top: -2rem;
+            }
+    
+
+ }
+ @media screen and (min-width: 768px) { 
+
+    body{
+        font-size: 14px;
+    }
+
+    .showcontsidebar{
+        width: 100%;
+    }
+
+    .supimglinc-first, .supimglinc-middle, .supimglinc-third{
+        height: 200px;
+        width: 400px;
+        margin: 0.5rem;
+
+    }
+
+    .bloque1{
+        height: 110px;
+        margin-bottom: 5%;
+    }
+
+    .imgideal {
+     
+        width: 200px;
+    }
+
+    .clienteideal{
+        height: 400px;
+        margin-top: 2rem;
+    margin-bottom: 3rem;
+        }
+
+    .esquema {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        
+       }
+
+    
+    .detalles{
+        height: 120px;
+    }
+
+    .colores > div{
+        width: 3.125rem;
+        height: 3.125rem;
+        -webkit-box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+        -moz-box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+        box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+    
+    }
+
+    .logo{
+        width: 3.75rem;
+    }
+
+    .objetivowor{
+        height: 400px;
+    }
+
+    .kard, .kardmiddle{
+        height: 11.25rem;
+    }
+    
+
+    .dresponsive{
+        height: 450px;
+        width: 80%;
+    }
+    
+    .txtdresponsive{
+        width: 50%;
+        margin-left: 2rem;
+    }
+
+       }
+
+/*//// // Large devices (desktops, 992px and up) /////*/
+@media (min-width: 992px) { 
+
+    .showcontsidebar{
+        width: 30%;
+    }
+
+    .supimglinc-first, .supimglinc-middle, .supimglinc-third{
+        height: 150px;
+        width: 250px;
+        margin: 0.5rem;
+
+    }
+    
+    .unbanner1{
+        background-image: url( "../img/pag_2_sizeless.jpg");
+        background-position:center;
+
+    }
+
+    .bloque1{
+        height: 120px;
+        margin-bottom: 1%;
+    
+    }
+
+    .imgideal {
+     
+        width: 300px;
+    }
+
+    .clienteideal{
+        height: 400px;
+        margin-top: 4rem;
+    margin-bottom: 5rem;
+        }
+
+    .detalles{
+        height: 8.12rem;
+    }
+
+    .objetivowor{
+        
+        height: 550px;
+    }
+
+    .kard, .kardmiddle{
+        height: 300px;
+    }
+    .dresponsive{
+        height: 500px;
+        width: 80%;
+    }
+
+ }
+
+/*//// //  X-Large devices (large desktops, 1200px and up)/////*/
+ @media screen and (min-width: 1200px) { 
+
+    .showcontsidebar{
+        width: 30%;
+    }
+
+    .supimglinc-first, .supimglinc-middle, .supimglinc-third{
+        height: 150px;
+        width: 300px;
+        margin: 0.5rem;
+
+    }
+
+    .unbanner1{
+        padding-bottom: 8%;
+    }
+
+    .dresponsive{
+        height: 600px;
+        width: 80%;
+    }
+
+    .kardmiddle{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .imgideal {
+     
+        width: 200px;
+    }
+
+    .clienteideal{
+        height: 400px;
+        margin-top: 3rem;
+    margin-bottom: 4rem;
+        }
+       
+    }
+/*//// //  XX-Large devices (larger desktops, 1400px and up)/////*/
+    @media screen and (min-width: 1400px) { 
+
+        .showcontsidebar{
+            width: 20%;
+        }
+
+        .imgideal {
+     
+            width: 300px;
+        }
+
+        .clienteideal{
+            height: 320px;
+            }
+        .dresponsive{
+            height: 600px;
+            width: 60%;
+        }
+
+        .unbanner1{
+            padding-bottom: 4%;
+        }
+       
+        }
+
+

@@ -1,0 +1,415 @@
+/*////  Small devices (landscape phones, 576px and max) ////*/
+@media screen and (max-width: 576px) { 
+
+    body{
+        font-size: 10px;
+    }
+
+    .unbanner1{
+        background-image: url( "../img/fondo2_celular_sm.jpg");
+        background-position:center;
+        background-repeat: no-repeat;
+    }
+
+    .unsection2{
+        padding-bottom: 3rem;
+      
+    }
+
+    .bloque1{
+        height: 100px;
+        margin-bottom: 8%;
+    }
+
+    .prototipo{
+        height: 400px;
+       
+        }
+    
+    .txtscreens{
+            text-align: center;
+            padding-right: none;
+            margin-bottom: 2rem;
+        }
+    
+    .imgdiseno{
+            width: 80%;    
+        }
+    
+    .txtdiseno{
+        width: 90%;
+        padding-right: none;
+        text-align: center ;
+        margin-bottom: 2rem;
+    }
+
+
+    .supdetalles{
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    
+    .detalles{
+        height: 100px;
+    }
+
+
+    .colores > div{
+        width: 2.5rem;
+        height: 2.5rem;
+        -webkit-box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+        -moz-box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+        box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+    
+    }
+ 
+    .logo{
+        width: 3rem;
+    }
+
+    .supdresponsive{
+        margin-bottom: 3rem;
+    }
+
+    .dresponsive{
+        height: 500px;
+        width: 80%;
+    }
+
+    .drespimg{
+        width: 200px;
+    }
+
+    .txtdresponsive{
+        width: 90%;
+        margin-left: 1rem;
+        text-align: center;
+    }
+
+    .kard, .kardmiddle{
+        height: 9rem;
+    }
+    .kardmiddle{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .suptarjetas{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+       }
+    
+    .txtdesafio{
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    footer{
+        height: 130px;
+       
+    }
+
+    .redes{
+        height: 45px;
+        width: 45px;
+        border-radius: 50px;
+        border: solid 2px white; 
+    }
+     
+    }
+/*////  Small devices (landscape phones, 576px and min) ////*/
+    @media screen and (min-width: 576px) { 
+
+    body{
+        font-size: 12px;
+    }
+
+    .unbanner1{
+        background-image: url( "../img/fondo2_celular_sm-md.jpg");
+        background-position:center;
+
+    }
+    .bloque1{
+        height: 100px;
+        margin-bottom: 8%;
+    }
+
+    .txtscreens{
+        text-align: center;
+        padding-right: none;
+        margin-bottom: 2rem;
+    }
+
+    .prototipo{
+        height: 480px;
+       
+        }
+
+    .imgdiseno{
+            width: 80%;    
+        }
+    
+    .txtdiseno{
+        width: 90%;
+        padding-right: none;
+        padding-left: none;
+        text-align: center ;
+        margin-bottom: 2rem;
+    }
+
+    .supdetalles{
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+    }
+
+    .detalles{
+    height: 100px;
+    }
+
+    .colores > div{
+    width: 2.5rem;
+    height: 2.5rem;
+    -webkit-box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+    -moz-box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+    box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+
+    }
+
+    .logo{
+    width: 3rem;
+    }
+
+
+    .kard, .kardmiddle{
+    height: 10rem;
+    }
+
+    .kardmiddle{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    }
+
+
+    .dresponsive{
+        height: 400px;
+        width: 80%;
+    }
+
+    .txtdresponsive{
+        width: 50%;
+        margin-left: 1rem;
+    }
+
+    .txtdesafio{
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    
+
+         }
+
+/*//// Medium devices (tablets, 768px and up)////*/
+@media (min-width: 576px) and (max-width: 768px) { 
+  
+    
+ }
+
+ @media screen and (min-width: 768px) { 
+
+    body{
+        font-size: 14px;
+    }
+
+    .unbanner1{
+        background-image: url( "../img/fondo2_celular_md_2.jpg");
+        background-position:center;
+
+    }
+
+    .prototipo{
+        height: 400px;
+        width: 80%;
+       
+        }
+   
+
+    .bloque1{
+        height: 110px;
+        margin-bottom: 5%;
+    }
+
+    .txtscreens{
+        text-align: center;
+        padding-right: none;
+        margin-bottom: 3rem;
+    }
+
+    .detalles{
+        height: 120px;
+    }
+
+    .colores > div{
+        width: 3.125rem;
+        height: 3.125rem;
+        -webkit-box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+        -moz-box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+        box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+    
+    }
+
+    .logo{
+        width: 3.75rem;
+    }
+
+    .kard, .kardmiddle{
+        height: 11.25rem;
+    }
+
+    .dresponsive{
+        height: 450px;
+        width: 80%;
+    }
+    
+    .txtdresponsive{
+        width: 50%;
+        margin-left: 2rem;
+    }
+
+
+       }
+
+/*//// // Large devices (desktops, 992px and up) /////*/
+@media (min-width: 992px) { 
+    
+    .unbanner1{
+        background-image: url( "../img/fondo2_celular_lg.jpg");
+        background-position:center;
+
+    }
+
+    .bloque1{
+        height: 120px;
+        margin-bottom: 1%;
+    
+    }
+
+    .txtscreens{
+        padding-right: 4rem;
+        text-align: left;
+        margin-bottom: none;
+    }
+
+    .imgdiseno{
+        width: 60%;    
+    }
+
+    .txtdiseno{
+        width: 40%;
+        padding-right: none;
+        padding-left: 2rem;
+        text-align: left ;
+        margin-bottom: none;
+    }
+
+    .detalles{
+        height: 8.12rem;
+    }
+
+    .txtdesafio{
+        margin-bottom: none;
+        text-align: left;
+    }
+
+ }
+
+/*//// //  X-Large devices (large desktops, 1200px and up)/////*/
+ @media screen and (min-width: 1200px) { 
+    .unbanner1{
+        background-image: url( "../img/fondo2_celular_xl.jpg");
+        background-position:center;
+        padding-bottom: 8%;
+    }
+
+    .prototipo{
+        height: 400px;
+       
+        }
+
+    .dresponsive{
+        height: 600px;
+        width: 80%;
+    }
+
+    .txtdiseno{
+        width: 40%;
+        padding-right: 3rem;
+        padding-left: 2rem;
+        text-align: left ;
+        margin-bottom: none;
+    }
+
+    .supdetalles{
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+    
+    .detalles{
+        height: 10rem;
+
+    }
+
+    .colores > div{
+        width: 60px;
+        height: 60px;
+        }
+    
+    .logo{
+            width: 70px;
+        }
+    
+    .kardmiddle{
+            margin-left: 4rem;
+            margin-right: 4rem;
+        }
+
+    .kard, .kardmiddle{
+            height: 300px;
+        }
+       
+    }
+/*//// //  XX-Large devices (larger desktops, 1400px and up)/////*/
+    @media screen and (min-width: 1400px) { 
+
+        .unbanner1{
+            padding-bottom: 4%;
+    
+        }
+
+        .prototipo{
+            height: 600px;
+           
+            }
+
+        .kardmiddle{
+                margin-left: 4rem;
+                margin-right: 4rem;
+            }
+
+        .dresponsive{
+            height: 600px;
+            width: 60%;
+        }
+       
+        }
+
+
+        /*//// Medium devices (tablets, 768px and up)////*/
+@media (min-width: 1400px) and (max-width: 1800px) { 
+
+    .prototipo{
+        height: 500px;
+       
+        }
+    
+}
+

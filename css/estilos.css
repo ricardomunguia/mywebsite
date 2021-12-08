@@ -1,0 +1,683 @@
+:root{
+    --color-azul: #08074e;
+    --color-rosa: #c22353;
+    --border: 8px;
+    /*//// Photoshop ////*/
+    --photoshopbg: #08074e;
+    --photoshopcolor:#509cff;
+    /*//// Illustrator ////*/
+    --illustratorbg: #330000;
+    --illustratorcolor:#ff9a00;
+     /*//// After Effects ////*/
+     --aftereffectsbg: #1f0040;
+     --aftereffectscolor:#d291ff;
+      /*//// xd ////*/
+      --xdbg: #470137;
+      --xdcolor:#ff65fe;
+         /*//// Captivate ////*/
+      --captivatebg: #1b3027;
+      --captivatecolor:#01e876;
+        /*//// Moodle ////*/
+        --moodlebg: #ee7c13;
+        --moodlecolor:white;
+        /*//// rise ////*/
+        --risebg: white;
+        --risecolor:#ff7245;
+}
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    background-color: rgba(56,18,81,0.1);
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    
+}
+/*//// NAVBAR ////*/
+
+.supbarnav, .supbarnavfixed{
+ 
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    z-index: 5;
+
+}
+
+.supbarnavfixed{
+    position: fixed;
+}
+
+.menulogo{
+    visibility: visible;
+    transition: all 100ms ease-in-out;
+}
+
+.menulogohidden{
+    visibility: hidden;
+    transition: all 100ms ease-in-out;
+}
+
+
+.hidecontsidebar{
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    position: fixed;
+    height: 100vh;
+    background-color: white;
+    transition: all 500ms ease;
+    transform: translateX(100%);
+    -webkit-box-shadow: -7px 5px 20px 2px rgba(0,0,0,0.25);
+-moz-box-shadow: -7px 5px 20px 2px rgba(0,0,0,0.25);
+box-shadow: -7px 5px 20px 2px rgba(0,0,0,0.25);
+z-index: 5;
+    
+
+}
+
+.blackClass{
+    font-size: 50px;
+    color: black;
+    visibility: hidden;
+    transition: all 500ms ease;
+}
+
+.redClass{
+    font-size: 50px;
+    color: red;
+}
+
+.showcontsidebar{
+    visibility: visible;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    position: fixed;
+    height: 100vh;
+    background-color: white;
+    transition: all 500ms ease;
+    transform: translateX(0%);
+    -webkit-box-shadow: -7px 5px 20px 2px rgba(0,0,0,0.25);
+-moz-box-shadow: -7px 5px 20px 2px rgba(0,0,0,0.25);
+box-shadow: -7px 5px 20px 2px rgba(0,0,0,0.25);
+z-index: 5;
+   
+}
+
+
+
+.sidebar a{
+
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+
+}
+
+.supimglinc-first, .supimglinc-middle, .supimglinc-third{
+    margin: .5rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    transition: all 200ms ease-in-out;
+}
+
+
+.supimglinc-first{
+    background-image: url(../img/index2.jpg);
+}
+
+.supimglinc-middle{
+    background-image: url(../img/mapas2.jpg);
+}
+
+.supimglinc-third{
+    background-image: url(../img/universales2.jpg);
+}
+
+.lincfirst:hover > .supimglinc-first { 
+    background-image: url(../img/Index.gif);
+    transition: all 200ms ease-in-out;
+    transform: scale(1.1);
+}
+
+
+.linc-middle:hover > .supimglinc-middle { 
+    background-image: url(../img/Mapas.gif);
+    transition: all 200ms ease-in-out;
+    transform: scale(1.1);
+}
+
+
+.lincthird:hover > .supimglinc-third { 
+    background-image: url(../img/Universales.gif);
+    transition: all 200ms ease-in-out;
+    transform: scale(1.1);
+}
+
+
+.lincfirst:hover, .linc-middle:hover, .lincthird:hover {
+    font-weight: 400;
+    color: #081257;
+}
+
+
+.lincfirst, .linc-middle, .lincthird{
+text-align: center;    
+
+}
+
+.linc-middle{
+margin: 2rem 0;
+
+}
+
+
+
+.logo {
+    width: 70px;
+   
+}
+
+.menutxt, .menublack {
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    
+
+
+}
+
+.menublack{
+    color: black;
+
+}
+
+.menutxt:hover {
+    color:white;
+
+}
+
+.menublack:hover{
+    color: red;
+}
+
+.menutxt:after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 1px;
+    left:0;
+    bottom: 0;
+    transition: transform 0.3s ease;
+    transform: scale(0, 1);
+      
+}
+
+.menutxt:hover:after{
+    transform: scale(1, 1);
+  
+}
+
+
+/*//// SECTION 1 ////*/
+
+.description{
+    background-image: url(../img/fondo_description.jpg);
+    border-radius: var(--border)  
+}
+
+
+.headdescription{
+    font-size: 1.2em;
+    color: var(--color-rosa);
+    font-weight: 400;
+
+}
+.buttondownload{
+    border-radius: 50px;
+    background-color: var(--color-rosa);
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.buttondownload:hover{
+    background-color: white;
+    color: var(--color-rosa);
+    text-decoration: none;
+    margin-right: 15px;
+    border: solid 1px var(--color-rosa);
+    transition: .3s;
+}
+
+.section1{
+    background-image: url( "../img/background_1.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 7%;
+
+}
+
+
+.presentacion > span{
+    font-size: 2em;
+}
+
+.presentacion > p{
+    font-size: 1em;
+   
+}
+
+.content-photo{
+    height: 19rem;
+    width: 19rem;
+   
+}
+
+.myphoto{
+    object-fit: cover;
+    object-position: center;
+    border: solid 8px rgba(194, 35, 83, 0.20);
+   
+   }
+
+.buttonsimple{
+    border-radius: var(--border);
+    border: solid 1px white;
+    color: white;
+    text-decoration: none;
+}
+
+.buttonsimple:hover{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: .3s;
+  
+ 
+}
+
+/*//// SECTION 2 ////*/
+
+
+
+.kardhead, .kardhead-2, .kardhead_sec1{
+    font-size: 1.2em;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 400;
+}
+
+.kardhead_sec3{
+    font-size: 1.2em;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+.kardhead-2{
+    color: var(--color-azul);
+}
+
+.subsection_1 {
+    color:var(--color-rosa);
+    font-weight: 400;
+}
+
+
+.kard{
+    
+    height: 260px;
+    background-color: white;
+    border-radius: var(--border);
+    opacity: .8;
+    padding: 0;
+}
+
+.kard:hover{
+    
+    background-color: white;
+    opacity:1;
+    transform: scale(1.02);
+    transition: .2s;
+}
+
+.skills1, .skills2{
+    height: 5.62rem;
+    background-color: var(--color-azul);
+    border-radius: 100px;
+    color:white;
+    padding: 0 2%;
+    margin-bottom: 2rem;
+
+}
+
+.skills2{
+    background-color: var(--color-rosa);
+    padding: 0 2%;
+    
+}
+
+
+.skills1 > div{
+    border: solid 1px white;
+    height: 4.06rem;
+    width: 4.06rem;
+    border-radius: 50px;
+    font-size: 1.3em;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.skills2 > div{
+    border: solid 1px white;
+    height: 65px;
+    width: 65px;
+    border-radius: 50px;
+    font-size: 1.3em;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+/*//// SECTION 3 ////*/
+
+.section3 {
+    background-color: rgba(56,18,81,0.1);
+}
+
+.work1{
+    height: 300px;
+    background-color: white;
+    border-radius: 8px;
+}
+.work1:hover{
+    transform: scale(1.02);
+    opacity: .9;
+    transition: .2s;
+}
+.worknuevo{
+    height: 150px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.imgbanner1,.imgbanner2{
+    height: 250px;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 8px;
+
+}
+
+.imgbanner1{
+    margin-right: 2rem;
+    width: 50%;
+}
+
+.imgbanner2{
+    margin-left: 2rem;
+    width: 50%;
+}
+
+
+.txtbanner1, .txtbanner2{
+    width: 500px;
+}
+
+
+.txtbanner1 > h4 {
+    text-align: left;
+}
+
+.txtbanner1 > p {
+    text-align: left;
+}
+
+.txtbanner2 > h4 {
+    text-align: right;
+}
+
+.txtbanner2 > p {
+    text-align: right;
+
+}
+
+.buttonsimple1, .buttonsimple2{
+    border-radius: 8px;
+    border: solid 1px var(--color-rosa);
+    color: var(--color-rosa);
+    text-decoration: none;
+    margin-right: 15px;
+   
+}
+
+.buttonsimple1:hover, .buttonsimple2:hover{
+    border: solid 1px var(--color-rosa);
+    color: white;
+    text-decoration: none;
+    background-color: var(--color-rosa);
+    transition: .2s;
+   
+}
+
+
+
+.buttonsimple2{
+    margin-left: 15px;
+}
+
+.imgbanner2{
+    object-position: center;
+}
+
+.portfolio-item > img {
+
+    transition: 0.4s transform;
+
+}
+.portfolio-item:hover > img {
+
+    transform: scale(0.96);
+    opacity: .9;
+}
+
+
+/*//// FOOTER ////*/
+.footer{
+    
+    background: linear-gradient(180deg, rgba(56,18,81,1) 0%, rgba(23,18,81,1) 100%);
+    height: 170px;
+    margin-top: 8.75rem;
+}
+
+.redes{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    border: solid 2px white;
+    
+}
+.red:hover{
+    transform: scale(0.94);
+    opacity: .8;
+    transition: .5s;
+  
+}
+
+
+/*//////// TOOLTIP //////////*/
+.tip{
+    cursor: pointer;
+    position: relative;
+
+}
+
+.tooltip{
+  position: absolute;
+  top: 0;
+  font-size: 0.875rem;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .skills2 .tip:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .skills1 .tip:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+ .tip:hover{
+    font-weight: 400;
+    transition: .2s;
+
+  }
+
+/*//// Photoshop ////*/
+  .photoshop:hover{
+    background-color: var(--photoshopbg);
+    border-color: var(--photoshopcolor);
+    color:  var(--photoshopcolor);
+  }
+  
+  .skills2 .photoshop:hover .tooltip,
+  .skills2 .photoshop:hover .tooltip::before {
+    background-color: var(--photoshopbg);;
+    color: var(--photoshopcolor);
+  }
+
+  /*//// Illustrator ////*/
+
+  .illustrator:hover{
+    background-color: var(--illustratorbg);
+    border-color: var(--illustratorcolor);
+    color:  var(--illustratorcolor);
+  }
+  
+  .skills2 .illustrator:hover .tooltip,
+  .skills2 .illustrator:hover .tooltip::before {
+    background-color:  var(--illustratorbg);
+    color: var(--illustratorcolor);
+  }
+
+    /*//// After Effects ////*/
+
+    .aftereffects:hover{
+        background-color: var(--aftereffectsbg);
+        border-color: var(--aftereffectscolor);
+        color:  var(--aftereffectscolor);
+      }
+      
+      .skills2 .aftereffects:hover .tooltip,
+      .skills2 .aftereffects:hover .tooltip::before {
+        background-color:  var(--aftereffectsbg);
+        color: var(--aftereffectscolor);
+      }
+    /*//// xd ////*/
+
+    .xd:hover{
+        background-color: var(--xdbg);
+        border-color: var(--xdcolor);
+        color:  var(--xdcolor);
+      }
+      
+      .skills2 .xd:hover .tooltip,
+      .skills2 .xd:hover .tooltip::before {
+        background-color:  var(--xdbg);
+        color: var(--xdcolor);
+      }
+     /*//// Captivate ////*/
+
+     .captivate:hover{
+        background-color: var(--captivatebg);
+        border-color: var(--captivatecolor);
+        color:  var(--captivatecolor);
+      }
+      
+      .skills2 .captivate:hover .tooltip,
+      .skills2 .captivate:hover .tooltip::before {
+        background-color:  var(--captivatebg);
+        color: var(--captivatecolor);
+      }
+      /*//// Moodle ////*/
+
+     .moodle:hover{
+        background-color: var(--moodlebg);
+        border-color: var(--moodlecolor);
+        color:  var(--moodlecolor);
+      }
+      
+      .skills2 .moodle:hover .tooltip,
+      .skills2 .moodle:hover .tooltip::before {
+        background-color:  var(--moodlebg);
+        color: var(--moodlecolor);
+      }
+      /*//// rise ////*/
+
+     .rise:hover{
+        background-color: var(--risebg);
+        border-color: var(--risecolor);
+        color:  var(--risecolor);
+      }
+      
+      .skills2 .rise:hover .tooltip,
+      .skills2 .rise:hover .tooltip::before {
+        background-color:  var(--risebg);
+        color: var(--risecolor);
+      }
+      /*//// codeskills ////*/
+
+     .codes:hover{
+        background-color: white;
+        border-color: var(--color-azul);
+        color:  var(--color-azul);
+        }
+      
+      
+      .skills1 .codes:hover .tooltip,
+      .skills1 .codes:hover .tooltip::before {
+        background-color: white ;
+        color: var(--color-azul);
+      }
+/*//// FINISH TOOLTIP ////*/

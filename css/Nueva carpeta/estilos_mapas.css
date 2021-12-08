@@ -1,0 +1,377 @@
+:root{
+    --color-azul: #08074e;
+    --color-rosa: #c22353;
+    --border: 8px;
+   }
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    background-color: rgba(56,18,81,0.1);
+    color: #dee0fc;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+  
+
+    
+}
+/*//// NAVBAR ////*/
+
+.barnav{
+ 
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.logo {
+    width: 70px;
+   
+}
+
+.menutxt {
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+
+}
+
+.menutxt:hover {
+    color:white;
+
+}
+
+.menutxt:after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 1px;
+    left:0;
+    bottom: 0;
+    transition: transform 0.3s ease;
+    transform: scale(0, 1);
+      
+}
+
+.menutxt:hover:after{
+    transform: scale(1, 1);
+  
+}
+/*//// SECTION 1////*/
+
+
+.unbanner1{
+    background-image: url( "../img/fondo2_celular_xl.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 7%;
+    padding-bottom: 8%;
+}
+
+.bloque1{
+    height: 9.37rem;
+    background-color: #0f1047;
+    border-radius: var(--border);
+    opacity: 90%;
+
+}
+.bloque1 > span{
+    font-size: 1.5em;
+}
+.bloque1 > p{
+    font-size: 1em;
+}
+
+/*//// SECTION 2////*/
+
+.suppropsitio{
+    padding-top: 5rem;
+  }
+  
+  .imgprositio{
+       margin-top: 4rem;
+  }
+
+.unsection2{
+    background-image: url( "../img/fondo_mapas_12.jpg");
+    border-radius: 40px 40px 0px 0px;
+    margin-top: -70px;
+    z-index: 1 !important;
+    padding-bottom: 5rem;
+    background-position: center;
+    background-size: 100% 100%;
+  
+}
+
+
+.unkardhead{
+    font-size: 1.2em;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    color: #61a0fe;
+
+}
+
+.supprototipo{
+    margin: 2rem 0rem;
+}
+
+.prototipo{
+    width: 70%;
+    height: 600px;
+    background: linear-gradient(0deg, rgba(25, 35, 110, 0.1) 0%, rgba(229,231,246,0.1) 78%);
+    border-radius: 20px;
+    -webkit-box-shadow: 17px 18px 39px -12px rgba(0,0,0,0.1);
+    -moz-box-shadow: 17px 18px 39px -12px rgba(0,0,0,0.1);
+    box-shadow: 17px 18px 39px -12px rgba(0,0,0,0.1);
+    
+}
+
+.imgpro{
+    -webkit-box-shadow: 17px 18px 39px -12px rgba(0,0,0,0.1);
+    -moz-box-shadow: 17px 18px 39px -12px rgba(0,0,0,0.1);
+    box-shadow: 17px 18px 39px -12px rgba(0,0,0,0.1);
+}
+
+.imgdiseno{
+    width: 60%;    
+}
+.txtdiseno{
+    width: 40%;
+}
+
+.supscreens{
+    margin-top: 5rem;
+}
+
+.tituloscreens{
+font-size: 1.2em;
+font-weight: 400;
+margin-bottom: 2rem;
+text-align: left ;
+}
+
+
+
+.titulodiseno{
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-bottom: 2rem;
+
+}
+
+
+.supdiseno{
+    margin: 2rem 0;
+    padding: 3rem 0rem;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-image: linear-gradient(to right, #4859fd, #1f1c50) 1 stretch;
+
+}
+
+.pdiseno{
+    padding-top: 2rem;
+    border-top: 1px solid;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-image: linear-gradient(to right, #4859fd, #1f1c50) 1 stretch;
+    
+
+}
+
+.colores > div{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    -webkit-box-shadow: 5px 5px 12px 3px rgba(0,0,0,0.06);
+    -moz-box-shadow: 5px 5px 12px 3px rgba(0,0,0,0.06);
+    box-shadow: 5px 5px 12px 3px rgba(0,0,0,0.06);
+
+
+}
+.colorwhite{
+    background-color: #135f67;
+}
+.colorblack{
+    background-color: #011935;
+}
+.coloramarillo{
+    background-color: #61bb46;
+}
+
+.supdetalles{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.detalles{
+    height: 12.5rem;
+    border-radius: var(--border);
+    background: rgb(229,231,246);
+    background: linear-gradient(0deg, rgba(229,231,246,0.1) 0%, rgba(229,231,246,0.1) 78%);
+    border: 1px solid #7a6beb;
+    -webkit-box-shadow: 17px 18px 39px -12px rgba(0,0,0,0.1);
+    -moz-box-shadow: 17px 18px 39px -12px rgba(0,0,0,0.1);
+    box-shadow: 17px 18px 39px -12px rgba(0,0,0,0.1);
+}
+
+
+.logo{
+    width: 90px;
+}
+
+.tipografia > span{
+    font-size: 2rem;
+    color: #61bb46;
+    font-weight: 700;
+
+}
+
+
+
+.unkardhead-obj{
+    color: white;
+
+}
+
+.imgobj{
+    border-radius: 20px;
+    border: solid 6px rgba(255, 255, 255, 0.9);
+
+}
+
+.suptarjetas{
+ margin-top: 5rem;
+ margin-bottom: 5rem;
+}
+
+.kard, .kardmiddle{
+    height: 300px;
+    border-radius: var(--border);
+    opacity: .8;
+    border: 1px solid #4859fd;
+    background: rgb(229,231,246);
+    background: linear-gradient(0deg, rgba(229,231,246,0.1) 0%, rgba(229,231,246,0.1) 78%);
+    border-radius: 20px;
+    -webkit-box-shadow: 17px 18px 39px -12px rgba(0,0,0,0.24);
+    -moz-box-shadow: 17px 18px 39px -12px rgba(0,0,0,0.24);
+    box-shadow: 17px 18px 39px -12px rgba(0,0,0,0.24);
+  
+}
+
+.kardmiddle{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.untxtkard{
+    color: white;
+    margin: 0;
+}
+
+.supdresponsive{
+    margin-bottom: 5rem;
+
+}
+
+.dresponsive{
+    height: 600px;
+    border-bottom: 1px solid #4859fd;
+    border-left-width: 0;
+    border-right-width: 0;
+
+}
+.txtdresponsive{
+    margin-left: 3rem;
+}
+
+.presponsive{
+    padding-top: 2rem;
+    border-top: 1px solid;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-image: linear-gradient(to right, #4859fd, #1f1c50) 1 stretch;
+}
+
+.drespimg{
+    width: 350px;
+}
+
+.pdesafio{
+    padding-top: 2rem;
+    border-top: 1px solid;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-image: linear-gradient(to right, #4859fd, #1f1c50) 1 stretch;
+}
+
+.supimgscreens{
+    background-image: url(../img/fondo_screens.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.supdesafio{
+    background: linear-gradient(0deg, rgba(1, 7, 53, 0.1) 20% , rgba(1, 6, 48, 0.1) 0%);
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    margin-bottom: 5rem;
+
+
+}
+
+.imgdesafio{
+    border-radius: 12px;
+    border: 2px solid #4859fd;
+    -webkit-box-shadow: 17px 18px 39px -12px rgba(0,0,0,0.24);
+    -moz-box-shadow: 17px 18px 39px -12px rgba(0,0,0,0.24);
+    box-shadow: 17px 18px 39px -12px rgba(0,0,0,0.24);
+}
+
+.wordesafio{
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+}
+
+.titulodesafio{
+    font-size: 1.2em;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    color: #61a0fe;
+
+}
+
+/*//// FOOTER ////*/
+.footer{
+    
+    background: linear-gradient(0deg, rgba(34,21,2,1) 0%, rgba(18,8,75,1) 73%);
+    height: 170px;
+   
+}
+
+
+.redes{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    border: solid 2px white;
+    
+}
+.red:hover{
+    transform: scale(0.94);
+    opacity: .8;
+    transition: .5s;
+  
+}
+
+

@@ -1,0 +1,228 @@
+/*////  Small devices (landscape phones, 576px and up) ////*/
+@media screen and (max-width: 576px) { 
+
+   /*////  SECTION 1 ////*/
+  
+   body {
+    font-size: 13px;
+    
+    }
+
+    .showcontsidebar{
+    width: 100%;
+    }
+
+    .supimglinc-first, .supimglinc-middle, .supimglinc-third{
+    height: 150px;
+    width: 300px;
+    margin: 0.5rem;
+
+    }
+
+    .section1 {
+        background-size: 280% 100%;
+        
+    }
+
+    .content-photo {
+        height: 16rem;
+        width: 16rem;
+       
+    }
+
+    .kard{
+    
+        height: 90px;
+        padding-left: 5em;
+        padding-right: 5em;  
+    }
+
+   
+
+    .kardhead_sec1, .kardhead-2 {
+        margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+
+    .imgcard {
+        width: 70px !important;
+        
+    }
+
+    .kard-middle{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+
+    .txtcard{
+        width: 50px;
+    }
+
+    .skills1, .skills2{
+        height: 4.62rem;
+        padding: 0 2%;
+    
+    }
+
+    .skills1 > div{
+        height: 3.5rem;
+        width: 3.5rem;
+        }
+
+    .skills2 > div{
+        height: 3.5rem;
+        width: 3.5rem;
+
+}
+    
+    /*////  SECTION 3 ////*/
+
+    .work1{
+        height: 420px; 
+        
+    }
+
+    .imgbanner1,.imgbanner2 {
+        width: 100%;
+        height: 170px;
+        margin-right:inherit;
+        margin-left: inherit;
+    }
+    
+    .txtbanner1, .txtbanner2{
+        width: 90%;
+        
+    }
+
+
+    .txtbanner1 > h4 {
+        text-align: left;
+    }
+    
+    
+    .txtbanner1 > p {
+        text-align: left;
+
+    }
+    
+    .txtbanner2 > h4 {
+        text-align: right;
+    }
+    
+    .txtbanner2 > p {
+        text-align: right;
+    
+    }
+
+    #lastimg{
+        margin-top: 2rem;
+    }
+
+    .footer{
+ 
+        height: 9.375rem;
+        margin-top: 3.3rem;
+    }
+    
+
+    }
+
+/*////  Small devices (landscape phones, 576px and min) ////*/
+@media screen and (min-width: 576px) { 
+
+    
+    .showcontsidebar{
+        width: 100%;
+    }
+
+    .supimglinc-first, .supimglinc-middle, .supimglinc-third{
+        height: 200px;
+        width: 400px;
+        margin: 0.5rem;
+
+    }
+}
+
+/*//// Change Font (tablets, 810px and up)////*/
+@media (max-width:810px) and (min-width:576px) { 
+
+    
+    body {
+        font-size: 13px;
+        
+    }
+
+    .kard{
+        height: 220px;
+    }
+
+    .footer{
+ 
+        height: 9.375rem;
+        margin-top: 4rem;
+    }
+    
+}
+
+@media screen and (min-width: 768px) { 
+
+   
+    .showcontsidebar{
+        width: 100%;
+    }
+
+    .supimglinc-first, .supimglinc-middle, .supimglinc-third{
+        height: 200px;
+        width: 400px;
+        margin: 0.5rem;
+
+    }
+
+}
+
+/*//// // Large devices (desktops, 992px and up) /////*/
+@media (min-width: 992px) { 
+
+    .showcontsidebar{
+        width: 30%;
+    }
+
+    .supimglinc-first, .supimglinc-middle, .supimglinc-third{
+        height: 150px;
+        width: 250px;
+        margin: 0.5rem;
+
+    }
+
+}
+
+/*//// //  X-Large devices (large desktops, 1200px and up)/////*/
+ @media screen and (min-width: 1200px) { 
+
+    .showcontsidebar{
+        width: 30%;
+    }
+
+    .supimglinc-first, .supimglinc-middle, .supimglinc-third{
+        height: 150px;
+        width: 300px;
+        margin: 0.5rem;
+
+    }
+
+     .description{
+        background-size: 110% 110%;
+     }
+       
+    }
+
+/*//// //  XX-Large devices (larger desktops, 1400px and up)/////*/
+@media screen and (min-width: 1400px) { 
+
+    .showcontsidebar{
+        width: 20%;
+    }
+} 

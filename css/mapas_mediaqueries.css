@@ -1,0 +1,692 @@
+/*////  Small devices (landscape phones, 576px and max) ////*/
+@media screen and (max-width: 576px) { 
+
+    body{
+        font-size: 10px;
+    }
+
+    .showcontsidebar{
+        width: 100%;
+    }
+
+    .supimglinc-first, .supimglinc-middle, .supimglinc-third{
+        height: 150px;
+        width: 300px;
+        margin: 0.5rem;
+
+    }
+
+    .unbanner1{
+        background-image: url( "../img/fondo2_celular_sm.jpg");
+        background-position:center;
+        background-repeat: no-repeat;
+    }
+
+    .unsection2{
+        padding-bottom: 3rem;
+      
+    }
+
+    .bloque1{
+        height: 100px;
+        margin-bottom: 8%;
+    }
+
+
+    .txtpropsitio{
+        width: 80%;
+        text-align: center;
+        margin-bottom: 1rem;
+        }
+    
+    .imgpropsitio{
+            width: 80%;
+        }
+    
+    .evolucion {
+            height: 340px;
+            margin-top: 9rem;
+        }
+
+    
+    .imgevolucion {
+            width: 60%;
+            margin-top: -9rem;
+        }
+    
+    .txtevolucion {
+            width: 70%;
+            text-align: center;
+            margin-top: -5rem;
+        }
+    
+    .supdiseno {
+            margin-top: 5rem;
+            padding-top: 4rem;
+            padding-bottom: 6rem;
+            background-color: #edf4fe;
+        }
+    
+    .imgdiseno{
+            width: 80%;    
+        }
+    
+    .txtdiseno{
+        width: 90%;
+        padding-right: none;
+        text-align: center ;
+        margin-bottom: 2rem;
+    }
+
+
+    .supdetalles{
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    
+    .detalles{
+        height: 100px;
+        margin-top: -5rem
+        
+    }
+
+
+    .colores > div{
+        width: 2.5rem;
+        height: 2.5rem;
+        -webkit-box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+        -moz-box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+        box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+    
+    }
+ 
+    .logo{
+        width: 3rem;
+    }
+
+    .drespimg{
+        width: 200px;
+    }
+
+    .supsmartphone{
+        margin-top: 4rem;
+    }
+
+    .smartphone{
+    height: 300px;
+    background-image: url(../img/fondo_1_sm.jpg);  
+    }
+
+    .imgsmart{
+        width: 65%;
+    }
+
+    .suptarjetas{
+        margin-top: 4rem;
+       }
+
+    .kard, .kardmiddle{
+        height: 9rem;
+    }
+    .kardmiddle{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .supgif {
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .gif{
+        height: 320px;
+        background-image: url(../img/wepik-20211025-22134.jpg);
+        background-size: 100% 100%;
+    }
+
+    .subimggif{
+        width: 70%;
+    }
+
+    footer{
+        height: 130px;
+       
+    }
+
+    .redes{
+        height: 45px;
+        width: 45px;
+        border-radius: 50px;
+        border: solid 2px white; 
+    }
+     
+    }
+/*////  Small devices (landscape phones, 576px and min) ////*/
+    @media screen and (min-width: 576px) { 
+
+    body{
+        font-size: 12px;
+    }
+
+    .showcontsidebar{
+        width: 100%;
+    }
+
+    .supimglinc-first, .supimglinc-middle, .supimglinc-third{
+        height: 200px;
+        width: 400px;
+        margin: 0.5rem;
+
+    }
+
+
+    .unbanner1{
+        background-image: url( "../img/fondo2_celular_sm-md.jpg");
+        background-position:center;
+
+    }
+    .bloque1{
+        height: 100px;
+        margin-bottom: 8%;
+    }
+
+    .evolucion{
+        height: 300px;
+        margin-top: 4rem;   
+    }
+
+    .supdiseno{
+        margin-top: 4rem;
+        padding-top: 4rem;
+        padding-bottom: 5rem;
+    
+    }
+
+    .imgdiseno{
+            width: 80%;    
+        }
+    
+    .txtdiseno{
+        width: 90%;
+        padding-right: none;
+        padding-left: none;
+        text-align: center ;
+        margin-bottom: 2rem;
+    }
+
+    .supdetalles{
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+    }
+
+    .detalles{
+    height: 100px;
+    margin-top: -4rem;
+    }
+
+    .colores > div{
+    width: 2.5rem;
+    height: 2.5rem;
+    -webkit-box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+    -moz-box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+    box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+
+    }
+
+    .logo{
+    width: 3rem;
+    }
+
+
+    .supsmartphone{
+        margin-top: 5rem;
+    }
+
+    .smartphone{
+    height: 300px;
+    
+    }
+
+    .imgsmart{
+        width: 65%;
+    }
+
+    .suptarjetas{
+        margin-top: 4rem;
+       }
+
+    .kard, .kardmiddle{
+    height: 12rem;
+    }
+
+    .kardmiddle{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    }
+
+    .supgif {
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .gif{
+        height: 320px;
+      
+    }
+
+    .subimggif{
+        width: 70%;
+    }
+    
+
+         }
+
+/*//// Medium devices (tablets, 768px and up)////*/
+@media (min-width: 576px) and (max-width: 768px) { 
+  
+    .gif{
+        background-image: url(../img/wepik-20211025-22134.jpg);
+       background-size: 100% 100%;
+    
+    }
+
+    .subimggif{
+        border-radius: 20px;
+        border: solid 3px white;
+   
+    }
+
+    .supgif {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .smartphone{
+        height: 300px;
+        background-image: url(../img/fondo_1_sm.jpg);   
+    
+    }
+    
+    .txtpropsitio{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 1rem;
+    }
+
+    .imgpropsitio{
+        width: 70%;
+    }
+
+ }
+
+ @media screen and (min-width: 768px) { 
+
+    body{
+        font-size: 14px;
+    }
+
+    .showcontsidebar{
+        width: 100%;
+    }
+
+    .supimglinc-first, .supimglinc-middle, .supimglinc-third{
+        height: 200px;
+        width: 400px;
+        margin: 0.5rem;
+
+    }
+
+    .unbanner1{
+        background-image: url( "../img/fondo2_celular_md_2.jpg");
+        background-position:center;
+
+    }
+
+    .bloque1{
+        height: 110px;
+        margin-bottom: 5%;
+    }
+
+    .evolucion{
+        height: 380px;
+        margin-top: 5rem;   
+    }
+
+    .supdiseno{
+        margin-top: 5rem;
+        padding-top: 4rem;
+        padding-bottom: 6rem;
+    
+    }
+
+    .imgdiseno{
+        width: 80%;    
+    }
+
+
+    .detalles{
+        height: 120px;
+        margin-top: -5rem;
+    }
+
+    .colores > div{
+        width: 3.125rem;
+        height: 3.125rem;
+        -webkit-box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+        -moz-box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+        box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.03);
+    
+    }
+
+    .logo{
+        width: 3.75rem;
+    }
+
+
+    .supsmartphone{
+        margin-top: 6rem;
+    }
+
+    .smartphone{
+    height: 400px;
+    }
+
+    .imgsmart{
+        width: 65%;
+    }
+
+
+    .kard, .kardmiddle{
+        height: 14rem;
+    }
+
+    .suptarjetas{
+        margin-top: 5rem;
+       }
+    
+    .supgif {
+        margin-top: 5rem;
+        margin-bottom: 4rem;
+    }
+
+    .gif{
+        height: 370px;
+        background-image: url(../img/wepik-20211025-22134.jpg);
+     background-size: 100% 100%;  
+    
+    }
+
+    .subimggif{
+        width: 70%;
+    }
+    
+
+       }
+
+/*//// // Large devices (desktops, 992px and up) /////*/
+@media (min-width: 992px) { 
+
+    .showcontsidebar{
+        width: 30%;
+    }
+
+    .supimglinc-first, .supimglinc-middle, .supimglinc-third{
+        height: 150px;
+        width: 250px;
+        margin: 0.5rem;
+
+    }
+
+
+    .unbanner1{
+        background-image: url( "../img/fondo2_celular_lg.jpg");
+        background-position:center;
+
+    }
+
+    .bloque1{
+        height: 120px;
+        margin-bottom: 1%;
+    
+    }
+
+    .evolucion{
+        height: 380px;
+        margin-top: 5rem;   
+    }
+
+    .supdiseno{
+        margin-top: 5rem;
+        padding-top: 5rem;
+        padding-bottom: 7rem;
+    
+    }
+
+    .imgdiseno{
+        width: 60%;    
+    }
+
+    .txtdiseno{
+        width: 40%;
+        padding-right: none;
+        padding-left: 2rem;
+        text-align: left ;
+        margin-bottom: none;
+    }
+
+
+    .detalles{
+        height: 8.12rem;
+        margin-top: -6rem;
+    }
+
+    .supsmartphone{
+        margin-top: 7rem;
+    }
+
+    .smartphone{
+    height: 400px;
+    }
+
+    .imgsmart{
+        width: 58%;
+    }
+
+    .kard, .kardmiddle{
+        height: 15rem;
+    }
+
+    .suptarjetas{
+        margin-top: 5rem;
+       }
+    
+    .supgif {
+        margin-top: 5rem;
+        margin-bottom: 4rem;
+    }
+
+    .gif{
+        height: 400px;
+        background-image: url(../img/wepik-20211025-22134.jpg);
+    
+    }
+
+    .subimggif{
+        width: 80%;
+    }
+ }
+
+/*//// //  X-Large devices (large desktops, 1200px and up)/////*/
+ @media screen and (min-width: 1200px) { 
+    
+    .showcontsidebar{
+        width: 30%;
+    }
+
+    .supimglinc-first, .supimglinc-middle, .supimglinc-third{
+        height: 150px;
+        width: 300px;
+        margin: 0.5rem;
+
+    }
+    
+    .unbanner1{
+        background-image: url( "../img/fondo2_celular_xl.jpg");
+        background-position:center;
+        padding-bottom: 8%;
+    }
+
+    .evolucion{
+        height: 400px;
+        margin-top: 6rem;   
+    }
+
+    .supdiseno{
+        margin-top: 6rem;
+        padding-top: 5rem;
+        padding-bottom: 8rem;
+    
+    }
+
+    .txtdiseno{
+        width: 40%;
+        padding-right: 3rem;
+        padding-left: 2rem;
+        text-align: left ;
+        margin-bottom: none;
+    }
+
+    .supdetalles{
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+    
+    .detalles{
+        height: 10rem;
+        margin-top: -8rem;
+        
+
+    }
+
+    .colores > div{
+        width: 60px;
+        height: 60px;
+        }
+    
+    .logo{
+            width: 70px;
+        }
+
+    .suptarjetas{
+            margin-top: 6rem;
+           }
+    
+    .kardmiddle{
+            margin-left: 4rem;
+            margin-right: 4rem;
+        }
+
+    .kard, .kardmiddle{
+            height: 300px;
+        }
+
+    .supsmartphone{
+            margin-top: 8rem;
+        }
+    
+    .smartphone{
+        height: 500px;
+    }
+
+    .imgsmart{
+        width: 60%;
+    }
+
+    .supgif {
+        margin-top: 6rem;
+        margin-bottom: 4rem;
+    }
+
+    .gif{
+        height: 500px;
+    
+    }
+
+    .subimggif{
+        width: 80%;
+    }
+       
+    }
+/*//// //  XX-Large devices (larger desktops, 1400px and up)/////*/
+    @media screen and (min-width: 1400px) { 
+
+        .showcontsidebar{
+            width: 20%;
+        }
+
+        .unbanner1{
+            padding-bottom: 4%;
+    
+        }
+
+        .evolucion{
+            height: 500px;
+            margin-top: 8rem;   
+        }
+
+        .supdiseno{
+            margin-top: 8rem;
+            padding-top: 5rem;
+            padding-bottom: 10rem;
+        
+        }
+
+        .supsmartphone{
+            margin-top: 10rem;
+        }
+        
+        .smartphone{
+            height: 600px;
+        }
+
+        .imgsmart{
+            width: 50%;
+        }
+
+        .kard, .kardmiddle{
+            height: 320px;
+        }
+
+        .kardmiddle{
+                margin-left: 4rem;
+                margin-right: 4rem;
+            }
+        
+        .suptarjetas{
+                margin-top: 8rem;
+               }
+
+        .supgif {
+                margin-top: 8rem;
+                margin-bottom: 8rem;
+            }
+        
+        .gif{
+                height: 600px;
+            
+            }
+
+        .subimggif{
+                width: 100%;
+            }
+       
+        }
+
+
+        /*//// Medium devices (tablets, 768px and up)////*/
+@media (min-width: 1400px) and (max-width: 1800px) { 
+
+    
+    
+}
+
